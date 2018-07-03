@@ -37,7 +37,9 @@ end
 
 def hit?
   # code hit? here
-  
+  res = get_user_input
+  if res == "h"
+    
 end
 
 def invalid_command
