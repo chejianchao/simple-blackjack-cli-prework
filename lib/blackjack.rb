@@ -42,6 +42,7 @@ def hit?(point)
     return point + deal_card()
   else
     return point
+  end
 end
 
 def invalid_command
