@@ -33,7 +33,9 @@ end
 
 def initial_round
   # code #initial_round here
-  return deal_card() + deal_card()
+  point =  deal_card() + deal_card()
+  #display_card_total(point)
+  return point
 end
 
 def hit?(point)
