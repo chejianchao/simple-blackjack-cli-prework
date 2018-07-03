@@ -64,6 +64,7 @@ def runner
   point = initial_round()
   while point<=21
     point = hit?(point)
+    display_card_total(point)
   end
   end_game()
 end
