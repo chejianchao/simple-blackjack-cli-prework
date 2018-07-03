@@ -66,5 +66,5 @@ def runner
     point = hit?(point)
     display_card_total(point)
   end
-  end_game()
+  end_game(point)
 end
