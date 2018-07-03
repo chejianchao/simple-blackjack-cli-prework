@@ -35,11 +35,13 @@ def initial_round
   return deal_card() + deal_card()
 end
 
-def hit?
+def hit?(point)
   # code hit? here
   res = get_user_input
   if res == "h"
-    
+    return point + deal_card()
+  else
+    return point
 end
 
 def invalid_command
