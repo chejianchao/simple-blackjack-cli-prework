@@ -28,6 +28,7 @@ def end_game(point)
   # code #end_game here
   if( point > 21 )
     puts "Sorry, you hit #{point}. Thanks for playing!"
+  end
 end
 
 def initial_round
