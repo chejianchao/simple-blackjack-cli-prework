@@ -62,7 +62,7 @@ def runner
   
   welcome()
   point = initial_round()
-  until point>21
+  until point>21 do
     point = hit?(point)
   end
   end_game()
