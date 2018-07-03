@@ -40,6 +40,7 @@ end
 
 def hit?(point)
   # code hit? here
+  prompt_user()
   res = get_user_input
   if res == "h"
     return point + deal_card()
