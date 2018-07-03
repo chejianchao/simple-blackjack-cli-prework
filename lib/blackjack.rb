@@ -24,8 +24,10 @@ def get_user_input
   
 end
 
-def end_game
+def end_game(point)
   # code #end_game here
+  if( point > 21 )
+    puts "Sorry, you hit #{point}. Thanks for playing!"
 end
 
 def initial_round
